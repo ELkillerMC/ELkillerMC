@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Hi, I'm David Fajardo 👋</h1>
+  <h1>Hola soy David Fajardo 👋</h1>
   <p>Actualmente estoy estudiando el grado de Animación 3D, Juegos y Entornos Interactivos. Cuento además con un título de Grado Medio en Sistemas Microinformáticos y Redes, conocido como SMR. Esto me permite aportar una base técnica sólida en sistemas y hardware al desarrollo de proyectos interactivos y videojuegos.</p>
 </div>
 
