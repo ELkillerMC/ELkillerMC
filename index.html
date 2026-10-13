@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - David Fajardo</title>
+    <style>
+        /* Fondo base negro profundo */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000000;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Capa superpuesta con degradado muy atenuado/transparente intercalado con negro */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            /* Se intercalan los colores pastel con opacidad muy baja (0.15) y negro puro */
+            background: linear-gradient(-45deg, 
+                #000000, 
+                rgba(179, 157, 219, 0.15), /* Morado pastel tenue */
+                #000000, 
+                rgba(128, 222, 234, 0.15), /* Cian pastel tenue */
+                #000000, 
+                rgba(255, 224, 130, 0.15), /* Dorado pastel tenue */
+                #000000, 
+                rgba(128, 203, 196, 0.15), /* Turquesa pastel tenue */
+                #000000
+            );
+            background-size: 300% 300%;
+            animation: gradientAnimation 15s ease infinite;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        /* Movimiento fluido y sutil del degradado de fondo */
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Contenedor principal con efecto cristal */
+        .container {
+            max-width: 800px;
+            margin: 40px 20px;
+            padding: 40px;
+            background: rgba(10, 10, 10, 0.8); 
+            border-radius: 16px;
+            backdrop-filter: blur(12px); 
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.6);
+            position: relative;
+            z-index: 2; /* Por encima de la capa animada */
+        }
+
+        /* Estructura del Encabezado con imagen de perfil o marcador de posición */
+        .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 25px;
+        }
+
+        /* Imagen de perfil optimizada con borde brillante sutil */
+        .profile-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid rgba(128, 222, 234, 0.4); /* Brillo cian tenue */
+            box-shadow: 0 0 15px rgba(128, 222, 234, 0.2);
+            background: #111;
+        }
+
+        .profile-title h1 {
+            font-size: 2.3rem;
+            margin: 0 0 5px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .profile-title .subtitle {
+            color: #80deea;
+            font-size: 1.1rem;
+            margin: 0;
+            font-weight: 500;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: #ffffff;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        p {
+            line-height: 1.7;
+            color: #dcdcdc;
+            font-size: 1.05rem;
+            text-align: justify;
+        }
+
+        /* Grid visual para las áreas tecnológicas con tarjetas limpias */
+        .tech-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        @media (min-width: 600px) {
+            .tech-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .tech-card {
+            background: rgba(20, 20, 20, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .tech-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(179, 157, 219, 0.3); /* Destello morado tenue al pasar el ratón */
+        }
+
+        .tech-card strong {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            color: #ffe082; /* Tono dorado pastel para títulos de tarjetas */
+        }
+
+        .tech-card p {
+            font-size: 0.95rem;
+            margin: 0;
+            color: #c0c0c0;
+            text-align: left;
+            line-height: 1.5;
+        }
+
+        /* Estilo para la sección de proyectos */
+        .projects-box {
+            background: rgba(128, 203, 196, 0.05);
+            border-left: 4px solid #80cbc4; /* Detalle turquesa pastel */
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 15px;
+        }
+
+        .projects-box p {
+            margin: 0;
+            font-size: 1rem;
+            color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Encabezado con estructura para imagen de perfil -->
+        <div class="profile-header">
+            <!-- Espacio reservado para tu foto de perfil de GitHub de forma nativa -->
+            <img class="profile-img" src="https://github.com/ellectoromnisciente12-debug.png" alt="David Fajardo" onerror="this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=150&auto=format&fit=crop&q=60';">
+            <div class="profile-title">
+                <h1>Hi, I'm David Fajardo 👋</h1>
+                <p class="subtitle">Animación 3D, Juegos & Sistemas SMR</p>
+            </div>
+        </div>
+        
+        <p>Actualmente estoy estudiando el grado de Animación 3D, Juegos y Entornos Interactivos. Cuento además con un título de Grado Medio en Sistemas Microinformáticos y Redes, conocido como SMR. Esto me permite aportar una base técnica sólida en sistemas y hardware al desarrollo de proyectos interactivos y videojuegos.</p>
+        
+        <h2>🛠️ Tecnologías y herramientas que utilizo por áreas</h2>
+        
+        <!-- Grid moderno que estructura tus competencias en bloques limpios de diseño -->
+        <div class="tech-grid">
+            <div class="tech-card">
+                <strong>🎮 Videojuegos y Versiones</strong>
+                <p>Utilizo Unity con el lenguaje C# y la herramienta Git para subir los proyectos a GitHub de manera profesional.</p>
+            </div>
+            <div class="tech-card">
+                <strong>🎨 Modelado y Animación 3D</strong>
+                <p>Utilizo Blender para el desarrollo y diseño de entornos tridimensionales, realizando además bases de animación en 2D.</p>
+            </div>
+            <div class="tech-card">
+                <strong>✍️ Ilustración y Texturizado</strong>
+                <p>Utilizo Krita para realizar prácticas de dibujo en perspectiva, isométrica, color e iluminación, apoyándome en GIMP para edición fotográfica.</p>
+            </div>
+            <div class="tech-card">
+                <strong>🖥️ Área Técnica de SMR</strong>
+                <p>Manejo herramientas de ofimática, montaje y mantenimiento de equipos informáticos, junto con la administración avanzada de redes de datos.</p>
+            </div>
+        </div>
+        
+        <h2>📁 Mis Proyectos</h2>
+        
+        <div class="projects-box">
+            <p>Puedes echar un vistazo a mis repositorios fijados aquí abajo para ver mis prácticas de clase y proyectos personales de manera directa.</p>
+        </div>
+    </div>
+
+</body>
+</html>
