@@ -1,33 +1,62 @@
-<div align="center">
-  <h1>Hola soy David Fajardo 👋</h1>
-  <p>Actualmente estoy estudiando el grado de Animación 3D, Juegos y Entornos Interactivos. Cuento además con un título de Grado Medio en Sistemas Microinformáticos y Redes, conocido como SMR. Esto me permite aportar una base técnica sólida en sistemas y hardware al desarrollo de proyectos interactivos y videojuegos.</p>
-</div>
+# ¡Hola! Soy David Fajardo 👋
 
-<br>
+<p align="center">
+  <img src="https://unsplash.com" alt="Banner David Fajardo - Tech & 3D" width="100%" />
+</p>
 
-<h2>🛠️ Tecnologías y herramientas que utilizo por áreas</h2>
+<p align="center">
+  <a href="https://artstation.com"><img src="https://shields.io" alt="ArtStation" /></a>
+  <a href="https://github.com"><img src="https://shields.io" alt="GitHub" /></a>
+</p>
 
-<div style="background: rgba(15, 15, 15, 0.85); padding: 20px; border-radius: 12px; margin-bottom: 15px; border: 1px solid rgba(255, 255, 255, 0.1);">
-  <strong>🎮 Área de motores de videojuegos y control de versiones:</strong><br>
-  Utilizo Unity con el lenguaje C# y la herramienta Git para subir los proyectos a GitHub.
-</div>
+### 🚀 Perfil Profesional
+Perfil **técnico-artístico especializado en el desarrollo de entornos interactivos y la optimización de flujos de trabajo para videojuegos**. Mi formación en Sistemas Microinformáticos y Redes (SMR) me permite conectar de forma eficiente el arte 3D con la infraestructura técnica, la administración de servidores, el control de versiones y la optimización de hardware de alto rendimiento para motores gráficos.
 
-<div style="background: rgba(15, 15, 15, 0.85); padding: 20px; border-radius: 12px; margin-bottom: 15px; border: 1px solid rgba(255, 255, 255, 0.1);">
-  <strong>🎨 Área de modelado y animación 3D:</strong><br>
-  Utilizo Blender, donde también realizo bases de animación en dos dimensiones.
-</div>
+---
 
-<div style="background: rgba(15, 15, 15, 0.85); padding: 20px; border-radius: 12px; margin-bottom: 15px; border: 1px solid rgba(255, 255, 255, 0.1);">
-  <strong>🖌️ Área de ilustración y texturizado:</strong><br>
-  Utilizo Krita para realizar prácticas de dibujo en perspectiva, isométrica, color e iluminación. También utilizo GIMP para edición de imagen.
-</div>
+### 🛠️ Tecnologías y Herramientas
 
-<div style="background: rgba(15, 15, 15, 0.85); padding: 20px; border-radius: 12px; margin-bottom: 15px; border: 1px solid rgba(255, 255, 255, 0.1);">
-  <strong>💻 Área técnica de SMR:</strong><br>
-  Utilizo programas de ofimática, además de realizar montaje, mantenimiento de equipos informáticos y administración de redes de datos.
-</div>
+**🎮 Desarrollo 3D e Interactividad**
+<p align="left">
+  <img src="https://shields.io" alt="UE5" />
+  <img src="https://shields.io" alt="Unity" />
+  <img src="https://shields.io" alt="C#" />
+  <img src="https://shields.io" alt="Blender" />
+  <img src="https://shields.io" alt="Krita" />
+  <img src="https://shields.io" alt="GIMP" />
+</p>
 
-<br>
+**🖥️ Sistemas, Redes e Infraestructura**
+<p align="left">
+  <img src="https://shields.io" alt="Linux" />
+  <img src="https://shields.io" alt="Windows" />
+  <img src="https://shields.io" alt="MySQL" />
+  <img src="https://shields.io" alt="Cisco" />
+</p>
 
-<h2>📁 Mis Proyectos</h2>
-<p>Puedes echar un vistazo a mis repositorios fijados aquí abajo para ver mis prácticas de clase y proyectos personales.</p>
+**🔧 Control de Versiones y Gestión**
+<p align="left">
+  <img src="https://shields.io" alt="Git" />
+  <img src="https://shields.io" alt="GitHub" />
+  <img src="https://shields.io" alt="Trello" />
+</p>
+
+---
+
+### 📂 Proyectos Destacados
+
+*   **Entornos Interactivos y Arte 3D (MEDAC):** Creación de mecánicas interactivas y escenarios optimizados en tiempo real dentro de Unity y Unreal Engine 5.
+*   **Despliegue de Servidor de Gestión de Incidencias:** Montaje y administración íntegra de infraestructura de red local, bases de datos y seguridad.
+
+---
+
+### 🎓 Educación
+*   **Técnico Superior en Animación 3D, Juegos y Entornos Interactivos** | MEDAC *(2026 - Presente)*
+*   **Técnico en Sistemas Microinformáticos y Redes (SMR)** | I.E.S. Belén *(2023 - 2025)*
+
+---
+
+### 📊 Estadísticas
+<p align="center">
+  <img src="https://vercel.app" alt="Estadísticas de David" height="150" />
+</p>
