@@ -58,5 +58,5 @@ Perfil **técnico-artístico especializado en el desarrollo de entornos interact
 
 ### 📊 Estadísticas
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ElKillerMC&show_icons=true&theme=radical" alt="Estadísticas de David" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ElKillerMC&show_icons=true&theme=radical&hide_border=false&count_private=true" alt="Estadísticas de David" width="100%" />
 </p>
