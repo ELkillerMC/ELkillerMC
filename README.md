@@ -9,7 +9,7 @@
   <a href="https://github.com/ElKillerMC"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
-### 🚀 Perfil Profesional
+### Perfil Profesional
 Perfil **técnico-artístico especializado en el desarrollo de entornos interactivos y la optimización de flujos de trabajo para videojuegos**. Mi formación en Sistemas Microinformáticos y Redes (SMR) me permite conectar de forma eficiente el arte 3D con la infraestructura técnica, la administración de servidores, el control de versiones y la optimización de hardware de alto rendimiento para motores gráficos.
 
 ---
@@ -18,7 +18,6 @@ Perfil **técnico-artístico especializado en el desarrollo de entornos interact
 
 **🎮 Desarrollo 3D e Interactividad**
 <p align="left">
-  <img src="https://img.shields.io/badge/Unreal_Engine_5-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white" alt="UE5" />
   <img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
   <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" alt="Blender" />
