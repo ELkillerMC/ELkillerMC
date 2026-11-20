@@ -1,4 +1,4 @@
-# ¡Hola! Soy David Fajardo 👋
+# ¡Hola! 👋
 
 <p align="center">
   <img src="./Katie%20Lawson.png" alt="Banner David Fajardo - Tech & 3D" width="100%" />
