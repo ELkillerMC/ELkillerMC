@@ -1,7 +1,7 @@
 # ¡Hola! Soy David Fajardo 👋
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop" alt="Banner David Fajardo - Tech & 3D" width="100%" />
+  <img src="./Katie%20Lawson.png" alt="Banner David Fajardo - Tech & 3D" width="100%" />
 </p>
 
 <p align="center">
